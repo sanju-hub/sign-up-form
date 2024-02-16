@@ -1,0 +1,79 @@
+/* odin.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Background Image Column */
+.bgm {
+    background-image: url('image.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust height as needed */
+}
+
+/* Header Text Styles */
+.hat {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Form Container */
+.jan {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Form Input and Label Styles */
+form label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e7eb; /* Default border color */
+    border-radius: 5px;
+}
+
+/* Password Error Style */
+form input.error[type="password"] {
+    border-color: #dc3545; /* Red border for error */
+}
+
+/* Selected Input Style */
+form input:focus {
+    border-color: #007bff; /* Blue border when selected */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle box shadow */
+}
+
+/* Submit Button Style */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #596d48; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Link Style */
+form p a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
